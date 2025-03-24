@@ -28,7 +28,7 @@ std::string CommonPrefix(const std::vector<std::string>& words)
     std::string prefiks = "";
 
 
-    if (words.size() == 0)
+    if (words.empty())
     {
         return prefiks;
     }
