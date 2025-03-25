@@ -28,14 +28,7 @@ int main() {
     int motion_x;
     int motion_y;
 
-    cin >> queen_x;
-    cout << endl;
-    cin >> queen_y;
-    cout << endl;
-    cin >> motion_x;
-    cout << endl;
-    cin >> motion_y;
-    cout << endl;
+    cin >> queen_x >> queen_y >> motion_x >> motion_y;
 
     if ((queen_x == motion_x) || (queen_y == motion_y)){
          cout << "YES\n";
